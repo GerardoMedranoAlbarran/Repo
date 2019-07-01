@@ -7,6 +7,7 @@ void reverse(char text[]){
 
 int main()
 {
+	//hola
     char text[] = "Hello world!";
     printf("%s\n",text);
 	reverse(text);
