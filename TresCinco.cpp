@@ -1,7 +1,7 @@
 #include <stdio.h>
 
-int main(){
-	for(int i = 1; i<=100;i++){
+void Numeros(int final){
+	for(int i = 1; i<=final;i++){
 		if(i%3 ==0 )
 			printf("Tres");
 
@@ -13,5 +13,10 @@ int main(){
 		}
 		printf("\n");
 	}
+}
+
+
+int main(){
+	Numeros(20);
 	return 0;
 }
