@@ -17,6 +17,6 @@ void Numeros(int final){
 
 
 int main(){
-	Numeros(20);
+	Numeros(25);
 	return 0;
 }
