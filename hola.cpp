@@ -1,12 +1,15 @@
 #include <stdio.h>
 
+void reverse(char text[]){
+	for(int i = 0; i<=strlen(text); i++)
+        printf("%c",text[strlen(text)-i]);   
+}
+}
+
 int main()
 {
-    char text[] ="Hola Mundo!";
+    char text[] = "Hello world!";
     printf("%s\n",text);
-    //printf("%d\n",strlen(text));
-    for(int i = 0; i<=strlen(text); i++){
-        printf("%c",text[strlen(text)-i]);   
-    }
+	reverse(text);
     return 0;
 }
