@@ -16,6 +16,7 @@ void Numeros(int final){
 			for(int j = 0; j < i ; j++)
 				printf("%d ",i);
 		}
+		printf("\n");
 	}
 }
 int main()
